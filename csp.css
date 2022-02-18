@@ -1,0 +1,44 @@
+/*  */
+.hello
+{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.google-font
+{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* boxmodel.html */
+.excss
+{
+    color: coral;
+}
+
+.box
+{
+    height: 300px;
+    width: 300px;
+    background-color:cyan;
+    border: 5px solid crimson;
+    padding: 50px;
+    margin: 60px;
+}
+@media screen and (min-width:360px) and (max-width:415px)
+ {
+    
+.hello{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+}
+
+
+

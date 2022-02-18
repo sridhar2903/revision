@@ -27,6 +27,26 @@
     padding: 50px;
     margin: 60px;
 }
+
+.circle
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: hotpink;
+}
+
+
+body{
+    border: 10px double hotpink;
+}
+
+.descp
+{
+    font-size: larger;
+    color: lightcoral;
+}
+
 @media screen and (min-width:360px) and (max-width:415px)
  {
     

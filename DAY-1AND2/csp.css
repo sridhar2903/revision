@@ -1,0 +1,38 @@
+/*  */
+.hello
+{
+    display: flex;
+    justify-content: space-between;
+} 
+
+
+.google-font
+{
+    font-family: 'Bebas Neue', cursive;
+}
+#tabstyle
+{
+    background-color: aqua;
+}
+
+body
+{
+    border: 10px groove crimson;
+}
+
+
+@media screen and (min-width:360px) and (max-width:415px)
+ {
+    
+.hello{
+    display: block;
+    width: 100%;
+}
+
+
+
+
+}
+
+
+

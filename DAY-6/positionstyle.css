@@ -1,0 +1,46 @@
+.box1
+{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left:50px;
+}
+.box2
+{
+    background-color: royalblue;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+left:250px;
+}
+.box3
+{
+    background-color: rosybrown;
+    height: 200px;
+    width: 200px;
+    position: fixed;
+    top:50px;
+   left: 300px;
+}
+.box4
+{
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 200px;
+    position: sticky;
+    top: 0px;
+    /* left: 400px; */
+}
+.box5
+{
+    background-color:firebrick;
+    width: 200px;
+    height: 200px;
+}
+.box6
+{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}

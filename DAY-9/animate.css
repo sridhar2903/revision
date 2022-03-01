@@ -1,0 +1,81 @@
+.box
+{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    animation-name: box;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    /* animation-direction:reverse; */
+    position: relative;
+}
+
+
+@keyframes box {
+    0%
+    {
+        
+        top: 0px;
+        left: 0px;
+    }
+
+
+    25%
+    {
+        background-color: bisque;
+        
+        top: 0px;
+        left: 500px;
+    }
+    50%
+    {
+        background-color: blanchedalmond;
+        top: 500px;
+        left: 500px;
+    }
+    75%
+    {
+        background-color: lightgreen;
+        top: 500px;
+        left: 0px;
+    }
+    100%
+    {
+        background-color: chartreuse;
+        top: 0px;
+        left: 0px;
+    }
+
+    
+}
+.ball
+{
+    margin: auto;
+    height: 70px;
+    width: 70px; 
+    border-radius: 50%;
+    background-color: brown;
+    animation-name: jumpingball;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes jumpingball {
+
+    0%
+    {
+        top:0px;
+
+    }
+
+    50%
+    {
+        top:500px;
+    }
+    100%
+    {
+        top: 0px;
+    }
+    
+}

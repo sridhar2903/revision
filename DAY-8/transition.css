@@ -1,0 +1,52 @@
+.box
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    box-shadow: 6px 6px 5px 2px grey;
+    text-shadow: 2px 2px 2px red;
+}
+.box1
+{
+    
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition: transform 1s;
+    box-shadow: 6px 6px 5px 2px grey;
+}
+.box1:hover
+{
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.box2
+{
+    
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition: transform 1s;
+    box-shadow: 6px 6px 5px 2px grey;
+}
+
+.box2:hover
+{
+    transform: translateX(500px);
+    cursor: pointer;
+}
+.box3
+{
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    transition: transform 1s 1s;
+    box-shadow: 6px 6px 5px 2px grey;
+}
+
+.box3:hover
+{
+    transform:scaleX(2);
+    cursor: pointer;
+}
